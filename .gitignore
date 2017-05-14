@@ -1,3 +1,5 @@
 __pycache__
 weights/YOLO_small.ckpt
 test/video/*
+test/output/*
+

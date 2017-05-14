@@ -4,7 +4,7 @@ from os.path import isfile, join
 
 yolo = YOLO_small_tf.YOLO_TF()
 
-images_dir_name = '/var/www/DataScience/Personal/Projects/VideoTask/YOLO_tensorflow/test/video/'
+images_dir_name = 'test/video/'
 # filename = 'test/football.jpg'
 
 onlyfiles = [f for f in listdir(images_dir_name) if isfile(join(images_dir_name, f))]
